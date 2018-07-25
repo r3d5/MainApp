@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B37203B1210801FA0052394E /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37203B0210801FA0052394E /* TestFramework.framework */; };
 		B3F847522107164600D4B21C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F847512107164600D4B21C /* AppDelegate.swift */; };
 		B3F847542107164600D4B21C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F847532107164600D4B21C /* ViewController.swift */; };
 		B3F847572107164600D4B21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F847552107164600D4B21C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B37203B0210801FA0052394E /* TestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestFramework.framework; sourceTree = "<group>"; };
 		B3F8474E2107164500D4B21C /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F847512107164600D4B21C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3F847532107164600D4B21C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37203B1210801FA0052394E /* TestFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				B3F847652107164700D4B21C /* MainAppTests */,
 				B3F847702107164700D4B21C /* MainAppUITests */,
 				B3F8474F2107164600D4B21C /* Products */,
+				B37203B0210801FA0052394E /* TestFramework.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -434,6 +438,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ2G7JN6DS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +460,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ2G7JN6DS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
