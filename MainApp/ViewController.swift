@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TestFramework
 
 class ViewController: UIViewController {
 

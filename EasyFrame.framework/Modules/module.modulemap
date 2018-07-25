@@ -1,0 +1,6 @@
+framework module EasyFrame {
+  umbrella header "EasyFrame.h"
+
+  export *
+  module * { export * }
+}
