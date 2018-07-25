@@ -17,6 +17,7 @@
 		B3F8475C2107164700D4B21C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F8475A2107164700D4B21C /* LaunchScreen.storyboard */; };
 		B3F847672107164700D4B21C /* MainAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F847662107164700D4B21C /* MainAppTests.swift */; };
 		B3F847722107164700D4B21C /* MainAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F847712107164700D4B21C /* MainAppUITests.swift */; };
+		B3F9622321088DFC004D26C0 /* EasyFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9622221088DFC004D26C0 /* EasyFrame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		B3F8476D2107164700D4B21C /* MainAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F847712107164700D4B21C /* MainAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppUITests.swift; sourceTree = "<group>"; };
 		B3F847732107164700D4B21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F9622221088DFC004D26C0 /* EasyFrame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EasyFrame.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D717FE21080F44008854C3 /* TestFramework.framework in Frameworks */,
+				B3F9622321088DFC004D26C0 /* EasyFrame.framework in Frameworks */,
 				B3D717FF21080F4E008854C3 /* TestFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +173,7 @@
 		B3F9621F21088D6D004D26C0 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				B3F9622221088DFC004D26C0 /* EasyFrame.framework */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -486,7 +490,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ2G7JN6DS;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Test",
+				);
 				INFOPLIST_FILE = MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,7 +515,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ2G7JN6DS;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Test",
+				);
 				INFOPLIST_FILE = MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
