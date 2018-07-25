@@ -117,6 +117,7 @@
 		B3F847452107164500D4B21C = {
 			isa = PBXGroup;
 			children = (
+				B3F9621F21088D6D004D26C0 /* Test */,
 				B3F847502107164600D4B21C /* MainApp */,
 				B3F847652107164700D4B21C /* MainAppTests */,
 				B3F847702107164700D4B21C /* MainAppUITests */,
@@ -164,6 +165,13 @@
 				B3F847732107164700D4B21C /* Info.plist */,
 			);
 			path = MainAppUITests;
+			sourceTree = "<group>";
+		};
+		B3F9621F21088D6D004D26C0 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
